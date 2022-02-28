@@ -1,0 +1,81 @@
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.food-note{
+    position: absolute;
+    width: 600px;
+    height: 234px;
+    left: 100px;
+    top: 260px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+}
+.skip-color{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+}
+.gray-color{
+    background: rgba(87, 87, 87, 1);
+    
+}
+.half-width{
+    width: 50%;
+}
+.food-paragraph{
+    position: absolute;
+    width: 499px;
+    height: 64px;
+    left: 100px;
+    top: 534px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
+}
+.order-food{
+    text-decoration: none;
+    position: static;
+    width: 106px;
+    height: 23px;
+    left: 43px;
+    top: 22.5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    position: absolute;
+    width: 192px;
+    height: 68px;
+    left: 100px;
+    top: 647px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+}
+.pos{
+    position: absolute;
+    width: 600px;
+    height: 723px;
+    left: 771px;
+    top: 96px;
+    max-width: fit-content;
+}
