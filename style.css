@@ -79,3 +79,117 @@
     top: 96px;
     max-width: fit-content;
 }
+
+
+.sec-2{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 902px;
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+}
+.pos-2{
+    position: absolute;
+    width: 338px;
+    height: 536px;
+    left: 199px;
+    top: 64px;
+}
+.about-me{
+    background: rgba(112, 112, 112, 1);
+}
+
+.about-paragraph{
+    position: static;
+    width: 444px;
+    height: 54px;
+    left: 48px;
+    top: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    font-feature-settings: 'liga' off;
+    color: #707070;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+    position: absolute;
+    width: 540px;
+    height: 246px;
+    right: 165px;
+    top: calc(50% - 246px/2 - 50px);
+}
+
+.about-me-description{
+    position: static;
+    width: 444px;
+    height: 160px;
+    left: 48px;
+    top: 86px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+.contact-me{
+    text-decoration: none;
+    position: static;
+    width: 121px;
+    height: 26px;
+    left: 35.5px;
+    top: 21px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+
+    /* #FFFFFF */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    position: absolute;
+    width: 192px;
+    height: 68px;
+    left: 783px;
+    top: 463px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+}
